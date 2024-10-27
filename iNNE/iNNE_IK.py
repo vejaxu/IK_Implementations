@@ -107,9 +107,9 @@ class iNN_IK:
 
 
 if __name__ == '__main__':
-    X = np.array([[1, 2],
-                  [0, 1], 
-                  [2, 1], 
+    X = np.array([[0, 1],
+                  [1, 2], 
+                  [2, 3], 
                   [100, 100]])
     
     inne_ik = iNN_IK(3, 1)
