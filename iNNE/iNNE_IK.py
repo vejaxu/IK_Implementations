@@ -112,8 +112,12 @@ if __name__ == '__main__':
                   [2, 3], 
                   [100, 100]])
     
-    inne_ik = iNN_IK(3, 1)
+    inne_ik = iNN_IK(3, 10)
 
     newX = inne_ik.fit_transform(X)
     print(f"newX shape: {newX.shape}")
     print(newX.toarray())
+
+    feature_map = np.dot(newX, newX.T) / newX.shape[0]
+    print(f"feature_map shape: {feature_map.shape}")
+    print(feature_map.toarray())
