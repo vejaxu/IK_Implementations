@@ -1,0 +1,4 @@
+This repo is for the three implementation of Isolation Kernel.
+The first is based on the isolation forest(iForest), which inferences this paper "Ting, Kai Ming, Yue Zhu, and Zhi-Hua Zhou. "Isolation kernel and its effect on SVM." Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. 2018."
+The second is based on the Voronoi diagram(aNNE), which inferences this paper "Qin, X., Ting, K.M., Zhu, Y. and Lee, V.C., 2019, July. Nearest-neighbour-induced isolation similarity and its impact on density-based clustering. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 33, pp. 4755-4762)."
+The third is based on the nearest neighbour(iNNE), which inferences this paper "Ting, Kai Ming, et al. "Isolation Distributional Kernel: A New Tool for Kernel based Anomaly Detection." Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. 2020."
