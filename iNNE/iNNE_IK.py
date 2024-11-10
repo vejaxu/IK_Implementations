@@ -114,10 +114,11 @@ if __name__ == '__main__':
     
     inne_ik = iNN_IK(3, 10)
 
-    newX = inne_ik.fit_transform(X)
-    print(f"newX shape: {newX.shape}")
-    print(newX.toarray())
-
-    feature_map = np.dot(newX, newX.T) / newX.shape[0]
-    print(f"feature_map shape: {feature_map.shape}")
-    print(feature_map.toarray())
+    feature_map = inne_ik.fit_transform(X)
+    # print(f"feature_map: {feature_map}")
+    print(f"newX shape: {feature_map.shape}")
+    print(f"feature_map: {feature_map.toarray()}")
+    
+    """ similarity = np.dot(feature_map, feature_map.T) / feature_map.shape[0]
+    print(f'similarity type: {type(similarity)}')
+    print(f"similarity shape: {similarity.shape}") """
